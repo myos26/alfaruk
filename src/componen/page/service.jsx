@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
-
+import webDevelop from '../../assets/logo/webDevelop.svg';
+import videoEditor from '../../assets/logo/video-editor.svg'
+import logoMaker from '../../assets/logo/logoMaker.svg'
 
 function Service() {
     const [flippedCardIndex, setFlippedCardIndex] = useState(null);
@@ -8,22 +10,42 @@ function Service() {
     // Updated card data structure with different images for front and back
     const cardData = [
         {
-            front: ['halo', 'hai'],
-            frontImageUrl: 'https://via.placeholder.com/200x100?text=Front1',
+            front: ['DEVELOPMENT', 'hai'],
+            frontImageUrl: webDevelop,
             backImageUrl: 'https://via.placeholder.com/200x100?text=Back1'
         },
         {
-            front: ['masuk', 'keluar'],
-            frontImageUrl: 'https://via.placeholder.com/200x100?text=Front2',
+            front: ['VIDEO EDITING', 'keluar'],
+            frontImageUrl: videoEditor,
             backImageUrl: 'https://via.placeholder.com/200x100?text=Back2'
         },
         {
-            front: ['aku', 'rindu'],
+            front: ['LOGO DESIGN', 'rindu'],
+            frontImageUrl: logoMaker,
+            backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
+        },
+        {
+            front: ['DESAIN GRAPHIC', 'rindu'],
             frontImageUrl: 'https://via.placeholder.com/200x100?text=Front3',
             backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
         },
         {
-            front: ['aku', 'rindu'],
+            front: ['DEVELOPMENT', 'hai'],
+            frontImageUrl: webDevelop,
+            backImageUrl: 'https://via.placeholder.com/200x100?text=Back1'
+        },
+        {
+            front: ['VIDEO EDITING', 'keluar'],
+            frontImageUrl: 'https://via.placeholder.com/200x100?text=Front2',
+            backImageUrl: 'https://via.placeholder.com/200x100?text=Back2'
+        },
+        {
+            front: ['LOGO DESIGN', 'rindu'],
+            frontImageUrl: 'https://via.placeholder.com/200x100?text=Front3',
+            backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
+        },
+        {
+            front: ['DESAIN GRAPHIC', 'rindu'],
             frontImageUrl: 'https://via.placeholder.com/200x100?text=Front3',
             backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
         }
@@ -55,7 +77,7 @@ function Service() {
                     >
                         <div className="card front" onClick={() => handleCardClick(index)}>
                             <img src={card.frontImageUrl} alt="Card Front" className="card-image" />
-                            <h1>{card.front[0]}</h1>
+                            <h3>{card.front[0]}</h3>
                         </div>
                         <div className="card back" onClick={() => handleCardClick(index)}>
                             <h6>{card.front[1]}</h6>

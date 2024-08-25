@@ -5,6 +5,10 @@ import frame from '../assets/border-profile.png'
 import React from 'react'
 
 function hero(){
+    const instagram_url = 'https://www.instagram.com/mas_yos230'
+    const linkedin_url = ''
+    const tiktok_url = 'https://www.tiktok.com/@alfaruk2629'
+
 return(
     <>
         <div className='hero'>
@@ -36,13 +40,13 @@ return(
                 </div>
             </div>
             <div className="hero-footer">
-                <a href="http://" title='instagram' target="_blank" rel="noopener noreferrer">
+                <a href={instagram_url} title='instagram' target="_blank" rel="noopener noreferrer">
                     <img src={instagram} alt="" />
                 </a>
-                <a href="http://" title='linkedin' target="_blank" rel="noopener noreferrer">
+                <a href={linkedin_url} title='linkedin' target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} alt="" />
                 </a>
-                <a href="http://" title='tiktok' target="_blank" rel="noopener noreferrer">
+                <a href={tiktok_url} title='tiktok' target="_blank" rel="noopener noreferrer">
                     <img src={tiktok} alt="" />
                 </a>
             </div>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.2332mm" height="3.6015mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3.74 3.18"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="_" horiz-adv-x="556" d="M-14.9477 -198.804l0 62.7803 581.963 0 0 -62.7803 -581.963 0z"/>
+   <glyph unicode="x" horiz-adv-x="500" d="M5.97907 0l189.337 269.058 -175.386 250.125 108.122 0 82.2123 -122.571c14.9477,-22.9198 26.9058,-41.8535 35.3762,-56.3029 14.9477,20.9268 28.4006,39.3622 39.8605,56.3029l86.6966 122.571 107.125 0 -176.383 -250.125 187.843 -269.058 -106.627 0 -107.623 159.94 -24.4145 38.3657 -138.515 -198.306 -107.623 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil12 {fill:black}
+    .fil1 {fill:black}
+    .fil11 {fill:#CCCCCC}
+    .fil4 {fill:#E6E6E6}
+    .fil2 {fill:#FFD724}
+    .fil3 {fill:white}
+    .fil13 {fill:black;fill-rule:nonzero}
+    .fil6 {fill:black;fill-opacity:0.250980}
+    .fil5 {fill:url(#id0)}
+    .fil7 {fill:url(#id1)}
+    .fil9 {fill:url(#id2)}
+    .fil8 {fill:url(#id3)}
+    .fil10 {fill:url(#id4)}
+    .fil0 {fill:url(#id5)}
+    .fnt0 {font-weight:normal;font-size:0.18px;font-family:'Arial'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1.51" y1="1.18" x2="2.26" y2="1.18">
+   <stop offset="0" style="stop-opacity:1; stop-color:#EFFE02"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#0DB7D9"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="0.68" y1="1.19" x2="1.54" y2="1.19">
+   <stop offset="0" style="stop-opacity:1; stop-color:#0D7791"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#C5DB03"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="2.19" y1="1.19" x2="3.06" y2="1.19">
+   <stop offset="0" style="stop-opacity:1; stop-color:#D2E809"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#079ABF"/>
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="1.1" y1="1.28" x2="1.11" y2="0.74">
+   <stop offset="0" style="stop-opacity:1; stop-color:#008BC2"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F2FF00"/>
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="2.62" y1="1.27" x2="2.64" y2="0.74">
+   <stop offset="0" style="stop-opacity:1; stop-color:#F2FF00"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#008BC2"/>
+  </linearGradient>
+  <radialGradient id="id5" gradientUnits="objectBoundingBox" cx="50%" cy="49.9982%" r="50%" fx="50%" fy="49.9982%">
+   <stop offset="0" style="stop-opacity:1; stop-color:#53B1C8"/>
+   <stop offset="0.858824" style="stop-opacity:1; stop-color:#A9C476"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FFD724"/>
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2230443139520">
+   <rect class="fil0" y="-0" width="3.74" height="2.44" rx="0.22" ry="0.22"/>
+   <rect class="fil1" x="1.59" y="2.44" width="0.61" height="0.46"/>
+   <path class="fil2" d="M2.35 2.85c-0.33,0 -0.66,0 -0.99,0 -0.04,0 -0.45,0.02 -0.43,0.33 0.62,0 1.25,0 1.87,0 0,-0.26 -0.4,-0.33 -0.45,-0.33z"/>
+   <rect class="fil3" x="0.15" y="0.12" width="3.44" height="2.12" rx="0.2" ry="0.19"/>
+   <path class="fil4" d="M0.34 0.12l3.06 0c0.1,0 0.19,0.08 0.19,0.18l-3.44 0c0,-0.1 0.09,-0.18 0.19,-0.18z"/>
+   <circle class="fil3" cx="1.89" cy="2.34" r="0.06"/>
+   <path class="fil5" d="M2.24 0.48c-0.03,0.07 -0.05,0.15 -0.08,0.22 -0.12,0.36 -0.25,0.71 -0.37,1.07 -0.05,0.14 -0.13,0.09 -0.28,0.11 0.02,-0.06 0.04,-0.12 0.06,-0.18 0.12,-0.36 0.24,-0.72 0.37,-1.08 0.07,-0.2 0.09,-0.14 0.32,-0.14l-0.02 0z"/>
+   <path class="fil6" d="M1.6 1.88c-0.02,0 -0.04,0 -0.06,0 0.34,-0.95 0.34,-0.95 0.34,-0.95l0.11 -0.19 -0.38 1.14z"/>
+   <g>
+    <path class="fil7" d="M1.54 0.98l0 -0.19c0,0 -0.02,-0.07 -0.11,-0.03 -0.1,0.04 -0.66,0.27 -0.66,0.27 0,0 -0.08,0.02 -0.08,0.13 0,0.11 0,0.11 0,0.11 0,0 -0,0.05 0.09,0.09 0.09,0.04 0.68,0.28 0.68,0.28 0,0 0.09,0.02 0.1,-0.05 0,-0.07 0,-0.19 0,-0.19 0,0 0.02,-0.02 -0.13,-0.07 -0.15,-0.05 -0.36,-0.13 -0.36,-0.13l0.45 -0.16c0,0 0.05,-0.01 0.05,-0.05z"/>
+    <path class="fil6" d="M1.54 1.47c-0,-0.04 -0,-0.08 -0,-0.08 0,0 0.02,-0.02 -0.13,-0.07 -0.15,-0.05 -0.36,-0.13 -0.36,-0.13l0.29 -0.1 -0.13 -0.06 -0.36 0.18 0.7 0.26z"/>
+    <path class="fil8" d="M1.54 0.98l0 -0.19c0,0 -0.02,-0.07 -0.11,-0.03 -0.08,0.03 -0.5,0.21 -0.63,0.26l-0 0 -0.01 0 -0.01 0 -0 0 -0 0 -0 0 -0 0 -0 0 -0 0 -0 0c0,0 -0.08,0.02 -0.08,0.13l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05c0,0 -0,0.04 0.06,0.07 -0.03,-0.03 -0.05,-0.06 -0.04,-0.11 0.04,0.06 0.11,0.04 0.11,0.04l0.25 -0.09 0.45 -0.16c0,0 0.05,-0.01 0.05,-0.05z"/>
+   </g>
+   <path class="fil9" d="M2.2 0.98l0 -0.19c0,0 0.02,-0.07 0.11,-0.03 0.1,0.04 0.66,0.27 0.66,0.27 0,0 0.08,0.02 0.08,0.13 0,0.11 0,0.11 0,0.11 0,0 0,0.05 -0.09,0.09 -0.09,0.04 -0.68,0.28 -0.68,0.28 0,0 -0.09,0.02 -0.1,-0.05 -0,-0.07 0,-0.19 0,-0.19 0,0 -0.02,-0.02 0.13,-0.07 0.15,-0.05 0.36,-0.13 0.36,-0.13l-0.45 -0.16c0,0 -0.05,-0.01 -0.05,-0.05z"/>
+   <path class="fil6" d="M2.19 1.47c0,-0.04 0,-0.08 0,-0.08 0,0 -0.02,-0.02 0.13,-0.07 0.15,-0.05 0.36,-0.13 0.36,-0.13l-0.29 -0.1 0.13 -0.06 0.36 0.18 -0.7 0.26z"/>
+   <path class="fil10" d="M2.2 0.98l0 -0.19c0,0 0.02,-0.07 0.11,-0.03 0.08,0.03 0.5,0.21 0.63,0.26l0 0 0.01 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0c0,0 0.08,0.02 0.08,0.13l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05c0,0 0,0.04 -0.06,0.07 0.03,-0.03 0.05,-0.06 0.04,-0.11 -0.04,0.06 -0.11,0.04 -0.11,0.04l-0.25 -0.09 -0.45 -0.16c0,0 -0.05,-0.01 -0.05,-0.05z"/>
+   <rect class="fil11" x="2.93" y="0.15" width="0.53" height="0.13"/>
+   <text x="3.33" y="0.26"  class="fil12 fnt0">x</text>
+   <text x="2.98" y="0.22"  class="fil12 fnt0">_</text>
+   <g>
+    <g>
+     <polygon class="fil13" points="3.14,0.18 3.14,0.17 3.24,0.17 3.24,0.18 "/>
+     <polygon class="fil13" points="3.14,0.25 3.14,0.25 3.14,0.18 3.14,0.18 "/>
+     <polygon class="fil13" points="3.24,0.25 3.23,0.25 3.23,0.18 3.24,0.18 "/>
+     <polygon class="fil13" points="3.14,0.25 3.14,0.24 3.23,0.24 3.23,0.25 "/>
+    </g>
+    <g>
+     <polygon class="fil13" points="3.15,0.2 3.15,0.18 3.26,0.18 3.26,0.2 "/>
+     <polygon class="fil13" points="3.16,0.26 3.15,0.26 3.15,0.2 3.16,0.2 "/>
+     <polygon class="fil13" points="3.26,0.26 3.25,0.26 3.25,0.2 3.26,0.2 "/>
+     <polygon class="fil13" points="3.16,0.26 3.16,0.26 3.25,0.26 3.25,0.26 "/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
