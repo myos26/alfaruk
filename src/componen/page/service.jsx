@@ -3,6 +3,7 @@ import ReactCardFlip from 'react-card-flip';
 import webDevelop from '../../assets/logo/webDevelop.svg';
 import videoEditor from '../../assets/logo/video-editor.svg'
 import logoMaker from '../../assets/logo/logoMaker.svg'
+import desainGraphic from '../../assets/logo/design.svg'
 
 function Service() {
     const [flippedCardIndex, setFlippedCardIndex] = useState(null);
@@ -26,27 +27,7 @@ function Service() {
         },
         {
             front: ['DESAIN GRAPHIC', 'rindu'],
-            frontImageUrl: 'https://via.placeholder.com/200x100?text=Front3',
-            backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
-        },
-        {
-            front: ['DEVELOPMENT', 'hai'],
-            frontImageUrl: webDevelop,
-            backImageUrl: 'https://via.placeholder.com/200x100?text=Back1'
-        },
-        {
-            front: ['VIDEO EDITING', 'keluar'],
-            frontImageUrl: 'https://via.placeholder.com/200x100?text=Front2',
-            backImageUrl: 'https://via.placeholder.com/200x100?text=Back2'
-        },
-        {
-            front: ['LOGO DESIGN', 'rindu'],
-            frontImageUrl: 'https://via.placeholder.com/200x100?text=Front3',
-            backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
-        },
-        {
-            front: ['DESAIN GRAPHIC', 'rindu'],
-            frontImageUrl: 'https://via.placeholder.com/200x100?text=Front3',
+            frontImageUrl: desainGraphic,
             backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
         }
     ];

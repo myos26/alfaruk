@@ -581,7 +581,7 @@ body{
 /* =================================MENU SERVICE========================== */
 .service {
   width: 100wh;
-  height: 100vh;
+  height: 75vh;
   background: #fff;
   padding: 2rem;
   text-align: center;
