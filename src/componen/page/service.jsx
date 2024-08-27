@@ -26,7 +26,7 @@ function Service() {
             backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
         },
         {
-            front: ['DESAIN GRAPHIC', 'rindu'],
+            front: ['GRAPHIC DESIGN', 'rindu'],
             frontImageUrl: desainGraphic,
             backImageUrl: 'https://via.placeholder.com/200x100?text=Back3'
         }
@@ -42,9 +42,13 @@ function Service() {
             <div className="deskripsi">
                 <div className="detail-deskripsi">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur. Nunc eget vestibulum porttitor
-                        massa at ullamcorper duis vitae. Ullamcorper suspendisse quis nibh
-                        libero pharetra tristique.
+                        I offer a range of services for SMEs, including website
+                        creation, video editing, logo design, and graphic design,
+                        to meet all your business needs.
+                        {/* Saya menawarkan berbagai layanan untuk UMKM,
+                        termasuk pembuatan website, video editing,
+                        desain logo, dan desain grafis, untuk memenuhi
+                        semua kebutuhan bisnis Anda. */}
                     </p>
                 </div>
             </div>

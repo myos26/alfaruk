@@ -4,10 +4,14 @@ import frame from "../../assets/border-profile.png";
 
 function About() {
   const [skillProgress, setSkillProgress] = useState({
-    "Web Developer": 0,
+   "Web Developer": 0,
     "Video Editor": 0,
     "Graphic Design": 0,
     "Public Speaking": 0,
+    // "Web Developer": 0,
+    // "Video Editor": 0,
+    // "Graphic Design": 0,
+    // "Public Speaking": 0,
   });
 
   const skillRef = useRef(null); // Referensi untuk elemen skill
@@ -18,6 +22,10 @@ function About() {
       "Video Editor": 98,
       "Graphic Design": 90,
       "Public Speaking": 86,
+      // "Web Developer": 92,
+      // "Video Editor": 98,
+      // "Graphic Design": 90,
+      // "Public Speaking": 86,
     };
 
     const animateSkills = () => {
@@ -87,11 +95,14 @@ function About() {
         <div className="about-right">
           <h1>About Me</h1>
           <p>
-            Saya adalah seorang pengembang yang penuh semangat dengan
+          I am a passionate developer with experience in building web applications
+          and designing user-friendly interfaces. I enjoy working with modern
+          technologies and always strive to enhance my skills. My expertise includes:
+            {/* Saya adalah seorang pengembang yang penuh semangat dengan
             pengalaman dalam membangun aplikasi web dan merancang antarmuka
             pengguna yang ramah. Saya menikmati bekerja dengan teknologi modern
             dan selalu berusaha untuk meningkatkan keterampilan saya. Keahlian
-            saya meliputi:
+            saya meliputi: */}
           </p>
           <div className="skill" ref={skillRef}>
             {Object.keys(skillProgress).map((skill) => (

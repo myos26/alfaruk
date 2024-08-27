@@ -165,7 +165,7 @@ body{
   transition: color 0.3s ease;
 }
 
-.navlink:hover {
+.navlink:hover,.active-nav {
   color: #007BFF; /* Warna saat hover */
 }
 
@@ -690,7 +690,7 @@ body{
 
 .content-container {
   display: flex;
-  gap: 50px;
+  gap: 20px;
   flex-wrap: wrap; /* Sesuaikan dengan konten */
   justify-content: center;
   align-items: center;
@@ -698,15 +698,23 @@ body{
 
 .content-item {
   width: 200px;
-  height: 100px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   border-radius: 15px;
+  border: 1px dashed #000;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: transform 0.6s ease, box-shadow 0.2s ease;
+}
+
+.content-item img{
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .content-item:hover {
@@ -744,16 +752,76 @@ body{
 .modal-content {
   padding: 20px;
   color: #000;
+  border: 2pt solid rgb(255, 209, 3);
   background: #fff;
+  max-width: 1080px;
+  max-height: 470px;
   border-radius: 20px;
   transform: scale(0.5);
   animation: modal 0.2s ease-out forwards;
 }
 
 .modal-content img {
-  border-radius: 20px;
+  border: 1pt solid #007BFF;
+  background: #f0f0ff;
+  border-radius: 15px;
+  max-width: 1000px;
+  max-height: 400px;
+  object-fit: cover;
 }
 
+.modal-content a h3 {
+  cursor: pointer; /* Tautan akan memiliki cursor pointer */
+  color: #006de3;
+  transition: 0.2s;
+}
+
+.modal-content a h3:hover {
+  color: #2ea8ff;
+  transition: 0.2s;
+}
+
+.modal-content h3 {
+  cursor: default; /* Teks biasa akan memiliki cursor default */
+  color: black;
+}
+
+.thumbnail-container {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+}
+
+.video-thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  background-color: rgba(0, 0, 0, 0.3); /* Transparan */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-button svg {
+  fill: white;
+}
+
+.video-container{
+  border-radius: 15px;
+}
 /* ===============================END MENU PROJECT=========================== */
 .footer{
   display: block;

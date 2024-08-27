@@ -6,7 +6,7 @@ import React from 'react'
 
 function hero(){
     const instagram_url = 'https://www.instagram.com/mas_yos230'
-    const linkedin_url = ''
+    const linkedin_url = 'https://www.linkedin.com/in/moh-ngumar-al-faruk-9b6a94297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     const tiktok_url = 'https://www.tiktok.com/@alfaruk2629'
 
 return(
@@ -19,10 +19,14 @@ return(
                     <h1>Web Developer</h1>
                     <h1>& Designer</h1>
                     <p>
-                        Mengintegrasikan keahlian teknis dengan desain kreatif, saya
+                    By integrating technical expertise with creative design, I am
+                    committed to developing engaging and high-performance websites,
+                    while continuously innovating to stay ahead of the latest technological
+                    advancements
+                        {/* Mengintegrasikan keahlian teknis dengan desain kreatif, saya
                         berkomitmen untuk mengembangkan situs web yang menarik dan
                         berkinerja tinggi, serta selalu berinovasi untuk mengikuti
-                        perkembangan teknologi terbaru.
+                        perkembangan teknologi terbaru. */}
                     </p>
                     <div className="cta">
                             <a className="hireMe" href="">
