@@ -75,13 +75,16 @@ function Project() {
 
     return (
         <>
-            <h1>Portfolio</h1>
+            <h1>Portofolio</h1>
             <div className="deskripsi">
                 <div className="detail-deskripsi">
                     <p>
-                        View my collection of work that has helped clients achieve
+                        {/* View my collection of work that has helped clients achieve
                         their various goals. Each piece reflects my creativity and
-                        expertise in tackling diverse design challenges and solutions.
+                        expertise in tackling diverse design challenges and solutions. */}
+                        Lihat koleksi karya saya yang telah membantu klien mencapai berbagai
+                        tujuan mereka. Setiap karya mencerminkan kreativitas dan keahlian
+                        saya dalam menghadapi tantangan dan solusi desain yang beragam.
                     </p>
                 </div>
             </div>
@@ -91,13 +94,13 @@ function Project() {
                         className={`filter-button ${activeFilter === 'all' ? 'active' : ''}`}
                         onClick={() => handleClick('all')}
                     >
-                        All
+                        Semua
                     </button>
                     <button
                         className={`filter-button ${activeFilter === 'desain-grafis' ? 'active' : ''}`}
                         onClick={() => handleClick('desain-grafis')}
                     >
-                        Graphic Design
+                        Desain Grafis
                     </button>
                     <button
                         className={`filter-button ${activeFilter === 'website' ? 'active' : ''}`}

@@ -14,19 +14,19 @@ return(
         <div className='hero'>
             <div className="hero-item">
                 <div className="hero-left">
-                    <h4>Hi, I am</h4>
+                    <h4>Hai, Saya</h4>
                     <h3>Al Faruk</h3>
                     <h1>Web Developer</h1>
                     <h1>& Designer</h1>
                     <p>
-                    By integrating technical expertise with creative design, I am
+                    {/* By integrating technical expertise with creative design, I am
                     committed to developing engaging and high-performance websites,
                     while continuously innovating to stay ahead of the latest technological
-                    advancements
-                        {/* Mengintegrasikan keahlian teknis dengan desain kreatif, saya
+                    advancements */}
+                        Mengintegrasikan keahlian teknis dengan desain kreatif, saya
                         berkomitmen untuk mengembangkan situs web yang menarik dan
                         berkinerja tinggi, serta selalu berinovasi untuk mengikuti
-                        perkembangan teknologi terbaru. */}
+                        perkembangan teknologi terbaru.
                     </p>
                     <div className="cta">
                             <a className="hireMe" href="">

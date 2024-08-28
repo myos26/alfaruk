@@ -53,7 +53,7 @@ function Navbar() {
                                     onClick={() => setActiveSection('home')}
                                     spy={true}
                                 >
-                                    Home
+                                    Beranda
                                 </Link>
                             </li>
                             <li>
@@ -65,7 +65,7 @@ function Navbar() {
                                     onClick={() => setActiveSection('about')}
                                     spy={true}
                                 >
-                                    About
+                                    Tentang
                                 </Link>
                             </li>
                             <li>
@@ -77,7 +77,7 @@ function Navbar() {
                                     onClick={() => setActiveSection('service')}
                                     spy={true}
                                 >
-                                    Services
+                                    Layanan
                                 </Link>
                             </li>
                             <li>
@@ -89,12 +89,12 @@ function Navbar() {
                                     onClick={() => setActiveSection('project')}
                                     spy={true}
                                 >
-                                    Portfolio
+                                    Portofolio
                                 </Link>
                             </li>
                         </ul>
                     </div>
-                    <a className="kontak" href="#">Contact Me</a>
+                    <a className="kontak" href="#">Kontak</a>
                 </div>
             </div>
         </div>
