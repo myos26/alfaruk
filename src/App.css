@@ -23,9 +23,10 @@ body{
 }
 
 .container{
-  padding: 4rem 3rem 0 3rem;
+  padding: 4rem 0 0 3rem;
   margin-top: -2.8rem;
   flex: 1;
+  border: 1px solid red;
 }
 
 /* ======================================================================= */
@@ -371,7 +372,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw; /* Memperbaiki typo dari 80wh ke 80vw */
+  width: 100%; /* Memperbaiki typo dari 80wh ke 80vw */
   padding: 0.5rem 0;
   box-sizing: border-box;
 }
@@ -853,7 +854,7 @@ body{
 
 .foot-nav {
   display: flex;
-  width: 80%;
+  width: 90%;
   justify-content: center;
 }
 
