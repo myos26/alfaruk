@@ -121,54 +121,54 @@ function Project() {
                 {/* ||||||||||||||||||||||||||||||||||||| DESAIN ||||||||||||||||||||||||||||||||||| */}
                 <div className="content-item desain-grafis"
                     onClick={() => openModal('Logo Mental Health (UBAYA)', logoZ, '')}>
-                    <img src={logoZ} alt="Baju Komunitas Bus" />
+                    <img src={logoZ} alt="Logo Mental Health (UBAYA)" />
                 </div>
                 <div className="content-item desain-grafis"
-                    onClick={() => openModal('Baju Komunitas Bus', logoJadiTrip, '')}>
-                    <img src={logoJadiTrip} alt="Baju Komunitas Bus" />
+                    onClick={() => openModal('Logo Jadi Trip', logoJadiTrip, '')}>
+                    <img src={logoJadiTrip} alt="Logo Jadi Trip" />
                 </div>
                 <div className="content-item desain-grafis"
-                    onClick={() => openModal('Baju Komunitas Bus', logoVB, '')}>
-                    <img src={logoVB} alt="Baju Komunitas Bus" />
+                    onClick={() => openModal('Logo VB Travel (Bali)', logoVB, '')}>
+                    <img src={logoVB} alt="Logo VB Travel (Bali)" />
                 </div>
                 <div className="content-item desain-grafis"
-                    onClick={() => openModal('Baju Komunitas Bus', vector1, '')}>
-                    <img src={vector1} alt="Baju Komunitas Bus" />
+                    onClick={() => openModal('Desain Vector', vector1, '')}>
+                    <img src={vector1} alt="Desain Vector" />
                 </div>
                 <div className="content-item desain-grafis"
-                    onClick={() => openModal('Baju Komunitas Bus', vector2, '')}>
-                    <img src={vector2} alt="Baju Komunitas Bus" />
+                    onClick={() => openModal('Desain Vector', vector2, '')}>
+                    <img src={vector2} alt="Desain Vector" />
                 </div>
                 <div className="content-item desain-grafis"
-                    onClick={() => openModal('Baju Komunitas Bus', promosi, '')}>
-                    <img src={promosi} alt="Baju Komunitas Bus" />
+                    onClick={() => openModal('Promosi Rental VB Travel', promosi, '')}>
+                    <img src={promosi} alt="Promosi Rental VB Travel" />
                 </div>
                 <div className="content-item desain-grafis"
-                    onClick={() => openModal('Baju Komunitas Bus', corona, '')}>
-                    <img src={corona} alt="Baju Komunitas Bus" />
+                    onClick={() => openModal('Poster Himbauan COVID-19', corona, '')}>
+                    <img src={corona} alt="Poster Himbauan COVID-19" />
                 </div>
                 <div className="content-item desain-grafis"
                     onClick={() => openModal('Baju Komunitas Bus', bajuBis, '')}>
                     <img src={bajuBis} alt="Baju Komunitas Bus" />
                 </div>
                 <div className="content-item desain-grafis"
-                    onClick={() => openModal('Baju Komunitas Bus', bajuCustom, '')}>
-                    <img src={bajuCustom} alt="Baju Komunitas Bus" />
+                    onClick={() => openModal('Desain Baju Custom', bajuCustom, '')}>
+                    <img src={bajuCustom} alt="Desain Baju Custom" />
                 </div>
                 {/* -------------------------------------------------------------------------------- */}
 
                 {/* |||||||||||||||||||||||||||||||||||||||| WEB ||||||||||||||||||||||||||||||||||||| */}
                 <div className="content-item website"
-                    onClick={() => openModal('Portal Berita Serbatau', patiunus, 'https://www.serbatau.web.id')}>
+                    onClick={() => openModal('Aplikasi POS', patiunus, '')}>
                     <img src={patiunus} alt="Portal Berita Serbatau" />
                 </div>
                 <div className="content-item website"
-                    onClick={() => openModal('Portal Berita Serbatau', jaditrip, 'https://www.serbatau.web.id')}>
-                    <img src={jaditrip} alt="Portal Berita Serbatau" />
+                    onClick={() => openModal('Portal Berita (Serbatau)', jaditrip, 'https://www.serbatau.web.id')}>
+                    <img src={jaditrip} alt="Portal Berita (Serbatau)" />
                 </div>
                 <div className="content-item website"
-                    onClick={() => openModal('Portal Berita Serbatau', serbatau, 'https://www.serbatau.web.id')}>
-                    <img src={serbatau} alt="Portal Berita Serbatau" />
+                    onClick={() => openModal('Web Wisata & Rental', serbatau, 'https://www.jaditrip.com')}>
+                    <img src={serbatau} alt="Web Wisata & Rental" />
                 </div>
                 {/* -------------------------------------------------------------------------------- */}
 
@@ -177,7 +177,7 @@ function Project() {
                 <div className="content-item video"
                     onClick={() => {
                         const fileId = getDriveFileId('https://drive.google.com/file/d/11GhEUytFWCspyvmGkxApW1pICKMOwRE_/view?usp=drive_link');
-                        openModal('(@vbalilux)', getDriveThumbnail(fileId), 'https://www.instagram.com/vbalilux', `https://drive.google.com/file/d/${fileId}/preview`);
+                        openModal('Media Promosi (@vbalilux)', getDriveThumbnail(fileId), 'https://www.instagram.com/vbalilux', `https://drive.google.com/file/d/${fileId}/preview`);
                     }}>
                     <div className="thumbnail-container">
                         <img src={getDriveThumbnail('11GhEUytFWCspyvmGkxApW1pICKMOwRE_')} alt="Drive Video Thumbnail" className="video-thumbnail" />
@@ -192,7 +192,7 @@ function Project() {
                 <div className="content-item video"
                     onClick={() => {
                         const fileId = getDriveFileId('https://drive.google.com/file/d/1PD-FGZQ6QfGGOTarNJIxm13xHOeRSRQ2/view?usp=drive_link');
-                        openModal('(@vbalilux)', getDriveThumbnail(fileId), 'https://www.instagram.com/vbalilux', `https://drive.google.com/file/d/${fileId}/preview`);
+                        openModal('Media Promosi (@vbalilux)', getDriveThumbnail(fileId), 'https://www.instagram.com/vbalilux', `https://drive.google.com/file/d/${fileId}/preview`);
                     }}>
                     <div className="thumbnail-container">
                         <img src={getDriveThumbnail('1PD-FGZQ6QfGGOTarNJIxm13xHOeRSRQ2')} alt="Drive Video Thumbnail" className="video-thumbnail" />
@@ -207,7 +207,7 @@ function Project() {
                 <div className="content-item video"
                     onClick={() => {
                         const fileId = getDriveFileId('https://drive.google.com/file/d/1lImWCnhUcV7aTU2LreyYvVt25RRM5t7o/view?usp=drive_link');
-                        openModal('(@vbalilux)', getDriveThumbnail(fileId), 'https://www.instagram.com/vbalilux', `https://drive.google.com/file/d/${fileId}/preview`);
+                        openModal('Media Promosi (@vbalilux)', getDriveThumbnail(fileId), 'https://www.instagram.com/vbalilux', `https://drive.google.com/file/d/${fileId}/preview`);
                     }}>
                     <div className="thumbnail-container">
                         <img src={agyaa} alt="Drive Video Thumbnail" className="video-thumbnail" />
