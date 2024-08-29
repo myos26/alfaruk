@@ -94,7 +94,7 @@ function Navbar() {
                             </li>
                         </ul>
                     </div>
-                    <a className="kontak" href="#">Kontak</a>
+                    <a className="kontak" href="https://wa.me/6287713863441" target='__blank'>Kontak</a>
                 </div>
             </div>
         </div>
