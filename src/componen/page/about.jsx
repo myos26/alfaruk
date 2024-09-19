@@ -93,7 +93,9 @@ function About() {
           </div>
         </div>
         <div className="about-right">
-          <h1>Tentang Saya</h1>
+          <div id="judul-about">
+            <h1>Tentang Saya</h1>
+          </div>
           <div className="frame-about-hp">
             <div>
               <img src={frame} alt="FOTOKU" />

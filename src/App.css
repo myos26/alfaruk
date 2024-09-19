@@ -531,6 +531,8 @@ body{
   margin: 0 auto; /* Tengah halaman */
 }
 
+
+
 .about-item {
   display: flex; /* Mengatur tata letak menjadi baris untuk hero-item */
   justify-content: space-between; /* Mengatur jarak antara hero-left dan hero-right */
@@ -574,6 +576,8 @@ body{
   padding: 1rem 1rem 1rem 2rem;
   /* border: 1px solid red; */
 }
+
+
 
 .skill {
   margin-top: 20px;
