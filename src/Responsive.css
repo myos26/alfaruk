@@ -1,0 +1,123 @@
+@media only screen and (max-width: 460px){
+    .navbar-android{
+        display: flex;
+    }
+    .android{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+
+    .container{
+        padding: 3rem 0;
+    }
+
+    .hero{
+        padding: 0;
+    }
+
+    .hero-item{
+        display: block;
+    }
+
+    .hero-left, .hero-right {
+        flex: none; /* Menghilangkan gaya flex jika tidak diinginkan */
+        height: auto; /* Mengatur tinggi menjadi auto agar responsif */
+      }
+
+    .hero-left{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .hero-left h1:first-of-type {
+        font-size: 24pt;
+      }
+      
+      .hero-left h1:last-of-type {
+        font-size: 24pt;
+      }
+
+    .cta{
+        justify-content: center;
+        margin-top: -4rem;
+    }
+
+    .hero-footer{
+        margin-top: 1rem;
+    }
+
+    .about{
+        padding: 0;
+    }
+
+    .about-right{
+        padding: 0 1rem 0 1rem;
+        margin-right: 0;
+    }
+
+    .about-left, .about-right {
+        flex: none; /* Menghilangkan gaya flex jika tidak diinginkan */
+        height: auto; /* Mengatur tinggi menjadi auto agar responsif */
+    }
+
+    .about-right p{
+        margin-top: -3rem;
+        width: 90vw;
+        text-align: justify;
+        text-indent: 15px;
+    }
+
+    .skill{
+        width: 90vw;
+    }
+
+    .frame-about-hp {
+        display: flex;
+        width: 100%;
+        height: 20rem;
+        justify-content: center;
+        margin-top: -2rem;
+        transform: scale(0);
+        opacity: 0;
+        animation: fadeZoomIn 0.8s forwards;
+        animation-delay: 0.5s;
+      }
+      
+      .frame-about-hp img {
+        margin: 0;
+        padding: 0;
+        width: 20rem;
+        height: 20rem;
+      }
+
+      .skill-app{
+        margin-top: 3rem;
+      }
+
+      .skill-app:before,
+      .skill-app:after{
+        width: 3rem;
+      }
+
+      .footer {
+        text-align: center;
+        justify-content: center;
+      }
+
+      .footer img{
+        left: 0;
+      }
+
+      .foot-nav{
+        display: none;
+      }
+
+      .project{
+        margin-top: 35rem;
+      }
+
+      .filter-button{
+        font-size: 7pt;
+      }
+}

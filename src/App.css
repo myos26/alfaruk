@@ -23,13 +23,15 @@ body{
 }
 
 .container{
-  padding: 4rem 0 0 3rem;
+  border: 1px solid red;
+  padding: 4rem 3rem 0 3rem;
   margin-top: -2.8rem;
   flex: 1;
 }
 
 /* ======================================================================= */
 /* ===================================NAVBAR============================== */
+
 .main-nav{
   display: flex;
   justify-content: center;
@@ -209,11 +211,74 @@ body{
     opacity: 1;
   }
 }
+
+
+.navbar-android{
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-hp{
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 102;
+  width: 100%;
+  height: 100vh;
+  justify-content: right;
+  background: rgba( 0, 169, 254, 0);
+  transition: background 0.5s ease;
+}
+
+.navbar-hp.open{
+  background: rgba( 0, 169, 254, 0.5);
+}
+
+#top-hp{
+  display: flex;
+  position: relative;
+  z-index: 104;
+  justify-content: right;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.nav-hp{
+  position: relative;
+  z-index: 103;
+  width: 70vw;
+  right: -100%;
+  padding-top: 2rem;
+  transition: right 0.5s ease;
+  background: rgb(0, 169, 254);
+}
+
+.nav-hp.open{
+  right: 0;
+}
+
+.nav-hp li{
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 0 0 0.2rem 0.2rem;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 /* =================================END NAVBAR=========================== */
 
 
 /* ======================================================================= */
 /* ==================================MENU HOME============================ */
+
 .hero {
   display: flex;
   flex-direction: column; /* Mengatur tata letak menjadi kolom */
@@ -224,6 +289,7 @@ body{
   padding: 1rem 2rem;
   margin: 0 auto; /* Tengah halaman */
 }
+
 
 .hero-item {
   display: flex; /* Mengatur tata letak menjadi baris untuk hero-item */
@@ -238,6 +304,7 @@ body{
 .hero-left {
   margin-right: 0.5rem; /* Jarak antara hero-left dan hero-right */
   padding: 1rem 1rem 1rem 2rem;
+  box-sizing: border-box;
 }
 
 .hero-right {
@@ -259,8 +326,30 @@ body{
 }
 
 .frame img {
-  width: 400px;
-  height: auto;
+  width: 25rem;
+  height: 25rem;
+}
+
+.frame-hp {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: -5rem;
+  transform: scale(0);
+  opacity: 0;
+  animation: fadeZoomIn 0.8s forwards;
+  animation-delay: 0.5s;
+}
+
+.frame-hp img {
+  margin: 0;
+  padding: 0;
+  width: 20rem;
+  height: 20rem;
+}
+
+.android{
+  display: none;
 }
 
 .hero-left h4 {
@@ -303,6 +392,7 @@ body{
   top: -4rem;
   opacity: 0;
   animation: muncul-kanan 1s forwards;
+  text-indent: 20px;
 }
 
 .cta {
@@ -467,8 +557,12 @@ body{
 }
 
 .frame-about img{
-  width: 400px;
-  height: auto;
+  width: 25rem;
+  height: 25rem;
+}
+
+.frame-about-hp{
+  display: none;
 }
 
 .about-right {

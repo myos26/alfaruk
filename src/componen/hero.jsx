@@ -58,6 +58,9 @@ function Hero() {
           <h3>Al Faruk</h3>
           <h1>Web Developer</h1>
           <h1>& Designer</h1>
+          <div className="frame-hp android">
+            <img src={frame} alt="FOTOKU" />
+          </div>
           <p>
             Mengintegrasikan keahlian teknis dengan desain kreatif, saya
             berkomitmen untuk mengembangkan situs web yang menarik dan
@@ -86,7 +89,7 @@ function Hero() {
             )}
           </div>
         </div>
-        <div className="hero-right">
+        <div className="hero-right desktop">
           <div className="frame">
             <img src={frame} alt="FOTOKU" />
           </div>

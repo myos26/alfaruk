@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, scroller } from 'react-scroll';
 import logo from './../assets/logo.svg'; // Pastikan path ke logo sudah benar
+import { Sling as Hamburger } from 'hamburger-react'
 
 function Navbar() {
     const [activeSection, setActiveSection] = useState('home'); // Menyimpan bagian yang aktif
@@ -30,8 +31,19 @@ function Navbar() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const [isOpen, setOpen] = useState(false)
+    const [color, setColor] = useState("#000")
+
+
+    const togglePosition = () => {
+        setOpen(prevOpen => !prevOpen)
+        setColor(isOpen ? "#000" : "#fff")
+    }
+    
+
     return (
-        <div className="main-nav">
+        <>
+            <div className="main-nav desktop">
             <div className="navbar">
                 <Link
                     to='home'
@@ -98,6 +110,48 @@ function Navbar() {
                 </div>
             </div>
         </div>
+
+        <div className="navbar-android">
+            <div id='top-hp'>
+                <Hamburger color={color} toggled={isOpen} toggle={togglePosition} />
+            </div>
+            <div className={`navbar-hp ${isOpen ? 'open' : ''}`}>
+                <div className={`nav-hp ${isOpen ? 'open' : ''}`}>
+                    <ul>
+                        {/* <div className="nav">
+                            <Link>Logo</Link>
+
+                            <a href="">HP</a>
+                        </div> */}
+                        <li>
+                            <Link
+                                to='home'
+                                smooth={true}
+                                duration={500}>Beranda</Link>
+                        </li>
+                        <li>
+                            <Link
+                            to='about'
+                            smooth={true}
+                            duration={500}>Tentang</Link>
+                        </li>
+                        <li>
+                            <Link
+                            to='services'
+                            smooth={true}
+                            duration={500}>Layanan</Link>
+                        </li>
+                        <li>
+                            <Link
+                            to='project'
+                            smooth={true}
+                            duration={500}>Portofolio</Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </>
     );
 }
 

@@ -87,13 +87,18 @@ function About() {
   return (
     <>
       <div className="about-item">
-        <div className="about-left">
+        <div className="about-left desktop">
           <div className="frame-about">
             <img src={frame} alt="FOTOKU" />
           </div>
         </div>
         <div className="about-right">
           <h1>Tentang Saya</h1>
+          <div className="frame-about-hp">
+            <div>
+              <img src={frame} alt="FOTOKU" />
+            </div>
+          </div>
           <p>
           {/* I am a passionate developer with experience in building web applications
           and designing user-friendly interfaces. I enjoy working with modern
