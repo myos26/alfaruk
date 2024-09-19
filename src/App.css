@@ -218,7 +218,7 @@ body{
   top: 0;
   z-index: 100;
   width: 100%;
-  height: 100vh;
+  height: 2.5rem;
   margin: 0;
   padding: 0;
 }
@@ -227,15 +227,18 @@ body{
   display: flex;
   position: absolute;
   top: 0;
+  right: -100%;
   z-index: 102;
   width: 100%;
   height: 100vh;
   justify-content: right;
   background: rgba( 0, 169, 254, 0);
   transition: background 0.5s ease;
+  transition: right 0.5s ease;
 }
 
 .navbar-hp.open{
+  right: 0;
   background: rgba( 0, 169, 254, 0.5);
 }
 
@@ -246,12 +249,14 @@ body{
   justify-content: right;
   padding: 0 1rem;
   width: 100%;
+  height: 2.5rem;
 }
 
 .nav-hp{
-  position: relative;
+  position: absolute;
   z-index: 103;
   width: 70vw;
+  height: 100vh;
   right: -100%;
   padding-top: 2rem;
   transition: right 0.5s ease;
