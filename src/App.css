@@ -23,7 +23,6 @@ body{
 }
 
 .container{
-  border: 1px solid red;
   padding: 4rem 3rem 0 3rem;
   margin-top: -2.8rem;
   flex: 1;
