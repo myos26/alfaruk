@@ -8,8 +8,8 @@ function About() {
   //   "Video Editor": 0,
   //   "Graphic Design": 0,
   //   "Public Speaking": 0,
-    "Web Developer": 0,
-    "Video Editor": 0,
+    "Web Development": 0,
+    "Video Editing": 0,
     "Desain Grafis": 0,
     "Public Speaking": 0,
   });
@@ -22,8 +22,8 @@ function About() {
       // "Video Editor": 98,
       // "Graphic Design": 90,
       // "Public Speaking": 86,
-      "Web Developer": 92,
-      "Video Editor": 98,
+      "Web Development": 92,
+      "Video Editing": 98,
       "Desain Grafis": 90,
       "Public Speaking": 86,
     };
