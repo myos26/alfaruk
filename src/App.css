@@ -765,7 +765,7 @@ body{
   /* border: 1px solid blue; */
   width: 100%;
   min-height: 100vh; /* Pastikan setinggi viewport, bisa lebih tinggi jika konten bertambah */
-  background: #fff;
+  /* background: #fff; */
   padding: 2rem;
   text-align: center;
   justify-content: center;
