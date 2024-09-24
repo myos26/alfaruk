@@ -12,6 +12,8 @@ import promosi from '../../assets/portofolio/desain/vbali.png';
 import patiunus from '../../assets/portofolio/web/patiunus.jpg';
 import jaditrip from '../../assets/portofolio/web/jaditrip.png';
 import serbatau from '../../assets/portofolio/web/serbatau.png';
+import isism from '../../assets/portofolio/web/isism-permi.png';
+import erabc from '../../assets/portofolio/web/erabc-org.png';
 
 
 // Helper function to get YouTube thumbnail
@@ -97,16 +99,16 @@ function Project() {
                         Semua
                     </button>
                     <button
-                        className={`filter-button ${activeFilter === 'desain-grafis' ? 'active' : ''}`}
-                        onClick={() => handleClick('desain-grafis')}
-                    >
-                        Desain Grafis
-                    </button>
-                    <button
                         className={`filter-button ${activeFilter === 'website' ? 'active' : ''}`}
                         onClick={() => handleClick('website')}
                     >
                         Website
+                    </button>
+                    <button
+                        className={`filter-button ${activeFilter === 'desain-grafis' ? 'active' : ''}`}
+                        onClick={() => handleClick('desain-grafis')}
+                    >
+                        Desain Grafis
                     </button>
                     <button
                         className={`filter-button ${activeFilter === 'video' ? 'active' : ''}`}
@@ -118,6 +120,29 @@ function Project() {
             </div>
 
             <div className="content-container">
+                {/* |||||||||||||||||||||||||||||||||||||||| WEB ||||||||||||||||||||||||||||||||||||| */}
+                <div className="content-item website"
+                    onClick={() => openModal('[Event] International Virtual Conference Education Research and Applied Business Conference ERABC 2024', erabc, 'https://www.erabc.org')}>
+                    <img src={erabc} alt="[Event] International Virtual Conference Education Research and Applied Business Conference ERABC 2024" />
+                </div>
+                <div className="content-item website"
+                    onClick={() => openModal('[Event] International Symposium of Indonesian Society for Microbiology', isism, 'https://www.isism-permi.org')}>
+                    <img src={isism} alt="[Event] International Symposium of Indonesian Society for Microbiology" />
+                </div>
+                <div className="content-item website"
+                    onClick={() => openModal('Aplikasi POS', patiunus, '')}>
+                    <img src={patiunus} alt="Aplikasi POS" />
+                </div>
+                <div className="content-item website"
+                    onClick={() => openModal('Web Wisata & Rental', jaditrip, 'https://www.jaditrip.com')}>
+                    <img src={jaditrip} alt="Web Wisata & Rental" />
+                </div>
+                <div className="content-item website"
+                    onClick={() => openModal('Portal Berita (Serbatau)', serbatau, 'https://www.serbatau.web.id')}>
+                    <img src={serbatau} alt="Portal Berita (Serbatau)" />
+                </div>
+                {/* -------------------------------------------------------------------------------- */}
+
                 {/* ||||||||||||||||||||||||||||||||||||| DESAIN ||||||||||||||||||||||||||||||||||| */}
                 <div className="content-item desain-grafis"
                     onClick={() => openModal('Logo Mental Health (UBAYA)', logoZ, '')}>
@@ -157,20 +182,7 @@ function Project() {
                 </div>
                 {/* -------------------------------------------------------------------------------- */}
 
-                {/* |||||||||||||||||||||||||||||||||||||||| WEB ||||||||||||||||||||||||||||||||||||| */}
-                <div className="content-item website"
-                    onClick={() => openModal('Aplikasi POS', patiunus, '')}>
-                    <img src={patiunus} alt="Portal Berita Serbatau" />
-                </div>
-                <div className="content-item website"
-                    onClick={() => openModal('Portal Berita (Serbatau)', jaditrip, 'https://www.serbatau.web.id')}>
-                    <img src={jaditrip} alt="Portal Berita (Serbatau)" />
-                </div>
-                <div className="content-item website"
-                    onClick={() => openModal('Web Wisata & Rental', serbatau, 'https://www.jaditrip.com')}>
-                    <img src={serbatau} alt="Web Wisata & Rental" />
-                </div>
-                {/* -------------------------------------------------------------------------------- */}
+                
 
                 {/* ||||||||||||||||||||||||||||||||||||| VIDEO ||||||||||||||||||||||||||||||||||| */}
 

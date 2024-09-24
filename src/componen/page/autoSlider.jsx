@@ -12,12 +12,18 @@ import Mikrotik from '../../assets/logo/mikrotik.svg'
 import Php from '../../assets/logo/php.svg'
 import PowerPoint from '../../assets/logo/powerpoint.svg'
 import Word from '../../assets/logo/word.svg'
+import ReactJs from '../../assets/logo/react.svg'
+import Filament from '../../assets/logo/filament.svg'
+import Figma from '../../assets/logo/figma.svg'
 
 function AutoSlide(){
     return(
         <>
             <div className="logo-slide">
                 <img src={Laravel} alt="" />
+                <img src={Filament} alt="" />
+                <img src={ReactJs} alt="" />
+                <img src={Figma} alt="" />
                 <img src={Capcut} alt="" />
                 <img src={Filmora} alt="" />
                 <img src={Canva} alt="" />
@@ -34,6 +40,9 @@ function AutoSlide(){
 
             <div className="logo-slide">
                 <img src={Laravel} alt="" />
+                <img src={Filament} alt="" />
+                <img src={ReactJs} alt="" />
+                <img src={Figma} alt="" />
                 <img src={Capcut} alt="" />
                 <img src={Filmora} alt="" />
                 <img src={Canva} alt="" />
