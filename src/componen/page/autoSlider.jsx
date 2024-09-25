@@ -15,6 +15,7 @@ import Word from '../../assets/logo/word.svg'
 import ReactJs from '../../assets/logo/react.svg'
 import Filament from '../../assets/logo/filament.svg'
 import Figma from '../../assets/logo/figma.svg'
+import TailwindCss from '../../assets/logo/tailwind.svg'
 
 function AutoSlide(){
     return(
@@ -23,6 +24,7 @@ function AutoSlide(){
                 <img src={Laravel} alt="" />
                 <img src={Filament} alt="" />
                 <img src={ReactJs} alt="" />
+                <img src={TailwindCss} alt="" />
                 <img src={Figma} alt="" />
                 <img src={Capcut} alt="" />
                 <img src={Filmora} alt="" />
@@ -42,6 +44,7 @@ function AutoSlide(){
                 <img src={Laravel} alt="" />
                 <img src={Filament} alt="" />
                 <img src={ReactJs} alt="" />
+                <img src={TailwindCss} alt="" />
                 <img src={Figma} alt="" />
                 <img src={Capcut} alt="" />
                 <img src={Filmora} alt="" />

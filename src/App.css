@@ -547,7 +547,7 @@ body{
   padding: 1rem 2rem 1rem 1rem;
   display: flex;
   justify-content: center;
-  align-item: center;
+  align-items: center;
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
@@ -732,9 +732,21 @@ body{
   transition: transform 0.6s ease, box-shadow 0.2s ease; /* Gabungkan transisi */
 }
 
-.card:hover {
+.card:hover,
+.front:hover,
+.back:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transform: scale(1.01);
+  cursor: pointer;
+}
+
+.card h3{
+  cursor: pointer;
+}
+
+.card h6{
+  cursor: pointer;
+  margin: 5px;
 }
 
 
@@ -833,7 +845,7 @@ body{
 
 .content-item:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transform: scale(1.01);
+  transform: scale(0.95);
   border: none;
 }
 

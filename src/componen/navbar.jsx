@@ -137,7 +137,7 @@ function Navbar() {
                         </li>
                         <li>
                             <Link
-                            to='services'
+                            to='service'
                             smooth={true}
                             duration={500}>Layanan</Link>
                         </li>

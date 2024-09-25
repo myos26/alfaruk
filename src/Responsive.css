@@ -126,4 +126,20 @@
       .filter-button{
         font-size: 7pt;
       }
+
+      .content-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+      }
+
+      .content-item{
+        width: 150px;
+        height: 100px;
+      }
+
+      .thumbnail-container{
+        width: 150px;
+        height: 100px;
+      }
 }
