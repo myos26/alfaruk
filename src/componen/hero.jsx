@@ -18,7 +18,7 @@ function Hero() {
 
     // Create a temporary anchor element and initiate the download
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=1fnCuv1ioUrV0abZQfRH37eSJfV6yqnNm';
+    link.href = 'https://drive.google.com/uc?export=download&id=1ISI0cKQR584p5kXdG9mBezHNQFjn58Xx';
     link.download = 'CV'; // Customize the file name if needed
     document.body.appendChild(link);
     link.click();
